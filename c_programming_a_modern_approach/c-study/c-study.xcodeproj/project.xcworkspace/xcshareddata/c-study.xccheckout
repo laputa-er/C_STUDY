@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2740B48-656D-4C14-AF66-1F7A7152BB54</string>
+	<key>IDESourceControlProjectName</key>
+	<string>c-study</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAD647A5E3E6807D81E931E90902FDFD50FEE5BC</key>
+		<string>https://git.coding.net/eli01/StudyCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C/c-study/c-study.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAD647A5E3E6807D81E931E90902FDFD50FEE5BC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.coding.net/eli01/StudyCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DAD647A5E3E6807D81E931E90902FDFD50FEE5BC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAD647A5E3E6807D81E931E90902FDFD50FEE5BC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StudyCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
