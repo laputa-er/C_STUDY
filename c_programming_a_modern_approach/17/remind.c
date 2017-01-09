@@ -32,7 +32,7 @@
  		//输入日期和一条备忘清单
  		printf("Enter day and reminder:");
 
- 		//把日期读入到整形变量day中，即使输入更多的数字，在%与d之间的数2也会通知scanf函数在读入两个数字后停止
+ 		//把日期读入到整型变量day中，即使输入更多的数字，在%与d之间的数2也会通知scanf函数在读入两个数字后停止
  		scanf("%2d", &day);
 
  		//如果日期输入0，则停止循环，不在输入任何备忘
@@ -54,7 +54,7 @@
 		
 		//将包括该位置之后的备忘信息向后移动
 		for(j = num_remind; j > i; j--){
-			reminders[j], reminders[j-1];
+			reminders[j] = reminders[j-1];
 		} 	
 
 		reminders[i] = malloc(2 + strlen(msg_str) + 1);
