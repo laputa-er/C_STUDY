@@ -31,7 +31,7 @@ int space_remaining(void){
 }
 
 /**
- * 在line中一个一个写字符，如果需要添加额外的空格那么久在每对单词之间停顿。
+ * 在line中一个一个写字符，如果需要添加额外的空格那么就在每对单词之间停顿。
  */
 void write_line(void){
 	int extra_spaces, spaces_to_insert, i ,j;

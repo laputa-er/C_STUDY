@@ -7,18 +7,16 @@
  */
 int read_char(void){
 	int ch = getchar();
-	if(ch == '\n' || ch == '\t'){
-		return ' ';
-	}
-	return ch;
+	return (ch == '\n' || ch == '\t' ? ' ' : ch);
 }
 
 /**
  * 读入一个单词
  * @param word 存储位置的指针
  * @param len  word的最大长度
+ * @return 返回存储的字符串的长度
  */
-void read_word(char *word, int len){
+int read_word(char *word, int len){
 	int ch, pos = 0;
 	
 	/*跳过空格，在遇到第一个非空字符时停止*/
@@ -33,4 +31,5 @@ void read_word(char *word, int len){
 		ch = read_char();
 	}
 	word[pos] = '\0';
+	return pos;
 }
