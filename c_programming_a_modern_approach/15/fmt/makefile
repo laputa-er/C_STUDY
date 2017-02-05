@@ -1,6 +1,6 @@
 fmt:fmt.o word.o line.o
 	gcc -o fmt fmt.o word.o line.o
-so: word.o line.o
+testA: word.o line.o
 	ar -rs myReadLine.a word.o line.o
 fmt.o:fmt.c word.h line.h
 	gcc -c fmt.c
